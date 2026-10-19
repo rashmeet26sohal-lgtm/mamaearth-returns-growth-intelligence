@@ -1,0 +1,8 @@
+Situation
+The cleaned order dataset records total revenue of ₹97,358.30 across the deduplicated orders. The payment-method return rates are COD 44.4%, CARD 14.7%, and UPI 18.9%.
+
+Complication
+The raw total is ₹99,860.20, which is ₹2,501.90 higher than the cleaned total. The reconciliation attributes this delta to duplicate orders, not missing-value imputation. COD is the clearest returns concern: the highest-risk segment is COD in Tier-2 cities, with a 54.5% return rate. The apparent revenue leader, 2026-01, shows ₹29,582.10 before quantity outliers are excluded, compared with ₹11,637.10 after correction.
+
+Resolution
+Prioritize COD return-reduction actions in Tier-2 cities and monitor payment-method return rates together with city-tier segments. Use deduplicated revenue for reporting and flag bulk-quantity outliers before comparing months. The genuine peak month is March (2026-03) at ₹20,318.90; use this corrected series for growth and inventory decisions.
